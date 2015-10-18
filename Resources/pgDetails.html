@@ -1,0 +1,82 @@
+<!-- Top Navbar-->
+
+<!-- /End of Top Navbar-->
+
+<!-- Now we need additional "navbar-through" and "toolbar-through" classes on Pages -->
+
+<div data-page="pgDetails" class="page with-subnavbar" id="pgDetails">
+    <div class="navbar navbarBorder" onclick="">
+        <div class="navbar-inner">
+            <div class="left" >
+                <a href="#"  data-popover=".popover-menu" class="link icon-only open-popover">
+                    <i class="icon menuIcon"></i>
+                </a>
+            </div>
+            <div class="center navBarTitle">SmartXplorer</div>
+            <div class="subnavbar  no-border subnavbarColor">
+                <div></div>
+                <div class="detailsTitle">{{title}}</div>
+                <div></div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="page-content ">
+        <div class="photoSection">
+            <div class="detailsPhoto" style="background-image:url('{{photopath}}')"></div>
+        </div>
+        <div class="content-block no-margin no-padding">
+            <div class="row no-gutter detailsMenuSection">
+                <div class="col-25 detailsMenuSectionItems border" id="wishlistItem" onclick="addtoWishlist('#wishlistItem',{{id}},'{{title}}')">
+                    <div class="wishlist "></div>
+                    <div class="  ">WISHLIST</div>
+                </div>
+                <div class=" col-25 detailsMenuSectionItems border">
+                    <div class="directions "></div>
+                    <div class="  ">DIRECTIONS</div>
+                </div>
+                <div class="col-25 detailsMenuSectionItems border">
+                    <div class=" share "></div>
+                    <div class="  ">SHARE</div>
+                </div>
+                <div class=" col-25 detailsMenuSectionItems border" id="tickets" onclick="buyTicket()">
+                    <div class="tickets "></div>
+                    <div class="  ">TICKETS</div>
+                </div>
+            </div>
+        </div>
+        <div class="content-block  no-margin ">
+            <div class="content-block-inner detailsInfoSection">
+                {{description}}               
+            </div>
+        </div>
+         <div class="more" onclick=" showMoreDetails()">▼</div>
+         <div class="content-block no-margin no-padding">
+            <div class="row no-gutter detailsMenuSection detailsBadgesSection">
+                <div class="col-40 detailsMenuSectionItems border">
+                    <div class="">VISIT & GET</div>
+                     <div class="visitGet"></div>
+                     <div class="numberOfBadges">{{badges}}</div>
+                </div>
+                 <div class="col-60 detailsMenuSectionItems border redeemBadgesSection">
+                     <div class="redeemInfo">
+                        {{availableOffer.offer}}
+                     </div>
+                     <div class="detailsButton">REDEEM</div>
+                </div>
+             </div>
+        </div>
+    </div>
+    
+   
+</div>
+
+
+
+
+
+
+
+
+<!-- /End of Bottom Toolbar-->

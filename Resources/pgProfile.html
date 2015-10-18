@@ -1,0 +1,53 @@
+<div data-page="profile" class="page" id="profilePage">
+
+    <div class="navbar navbarBorder">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" data-popover=".popover-menu" class="link icon-only open-popover">
+                    <i class="icon menuIcon"></i>
+                </a>
+            </div>
+            <div class="center navBarTitle">PROFILE</div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="row">
+            <img src="ragnar.jpg">
+        </div>
+
+        <div class="row">
+            <a href="" id="editProf" class="btn">EDIT PROFILE</a>
+        </div>
+
+        <div class="row">
+            <div class="col-33 lineRow"></div>
+            <div class="col-33">USERNAME</div>
+            <div class="col-33 lineRow"></div>
+            <input id="username" name="password" type="text" readonly readonly value="Ragnar" />
+        </div>
+
+        <div class="row">
+
+            <div class="col-33 lineRow"></div>
+            <div class="col-33">INTERESTS</div>
+            <div class="col-33 lineRow"></div>
+            <span>MUSEUMS | RELIGION | HISTORICAL SITES</span>
+        </div>
+
+        <div class="row">
+            <img class="myicon" src="wishListIcon.png">
+
+        </div>
+
+        <div class="row">
+            <div class="col-33 lineRow"></div>
+            <div class="col-33">WISHLIST</div>
+            <div class="col-33 lineRow"></div>
+             {{#each this}}
+            <span>{{this.title}} |</span>
+             {{/each}}
+        </div>
+
+    </div>
+</div>

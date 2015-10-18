@@ -1,0 +1,536 @@
+<project pid="aba019a6-db25-4d58-a5ea-edc9cd2b1176" name="smartXplorer" saveversion="2" path="C:\gitHub\smartXplorer\" type="Standalone" conversion="2.5.0.17">
+  <appinfo appid="7eead7e2-0162-4071-9341-89f4e9e43782" devid="" versionid="61fb7922-ab51-46a0-a657-0a1458ada7ef" apptitle="smartXplorer" appauthor="" appdescription="" appreleasenotes="" appversion="1.0.7" appcreationdate="17-Oct-15 10:29:16 PM" appicon="smartXplorerIcon.png" apprequireslicense="False" appmenuvisible="True" defaultpage="myApp" requiresdomain="False" defaultstyles="False" extsrc="True" updmessage="" />
+  <languages>
+    <enabled type="False" />
+  </languages>
+  <file del="True" mov="True" ren="True">
+    <id>0</id>
+    <filename>smartXplorer</filename>
+    <fullpath />
+    <isopen>False</isopen>
+    <imageid>1</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Project</type>
+  </file>
+  <file del="False" mov="False" ren="False" drag="False">
+    <id>1</id>
+    <filename>Code Repository</filename>
+    <fullpath>Code Repository</fullpath>
+    <isopen>False</isopen>
+    <imageid>5</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Folder</type>
+  </file>
+  <file del="False" mov="False" ren="False" drag="False">
+    <id>2</id>
+    <filename>CSS Files</filename>
+    <fullpath>CSS Files</fullpath>
+    <isopen>False</isopen>
+    <imageid>5</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Folder</type>
+  </file>
+  <file del="True" mov="True" ren="True">
+    <id>3b9cd897e465418f82d2a1ef6bdd7d66</id>
+    <filename>Dataset1</filename>
+    <fullpath>Dataset1</fullpath>
+    <isopen>False</isopen>
+    <imageid>3</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Datamodule</type>
+  </file>
+  <file del="True" mov="True" ren="True">
+    <id>3ccb186ba25340cf873f02ef0c1caa3e</id>
+    <filename>myApp</filename>
+    <fullpath>myApp</fullpath>
+    <isopen>False</isopen>
+    <imageid>2</imageid>
+    <location />
+    <parentid>-1</parentid>
+    <type>ft_Designer</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>88e7cdd56a1a49e49de1afd500a62a67</id>
+    <filename>framework7</filename>
+    <fullpath>Code Repository\framework7</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>f4bf29da13ea4df0a78a05be6d9acefc</id>
+    <filename>f7_colors_ios</filename>
+    <fullpath>CSS Files\f7_colors_ios</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>569f416a87144f7b84f413fe5fd45fb1</id>
+    <filename>f7_ios</filename>
+    <fullpath>CSS Files\f7_ios</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>8fb147b37e0e4dd1a82bfb03bbc83c73</id>
+    <filename>myApp</filename>
+    <fullpath>Code Repository\myApp</fullpath>
+    <isopen>True</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>aa00fdb37ad04960960813e240125ba9</id>
+    <filename>customCssVasilis</filename>
+    <fullpath>CSS Files\customCssVasilis</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>c5f509548d114dde8103ea11c74f1ebc</id>
+    <filename>customCssHelen</filename>
+    <fullpath>CSS Files\customCssHelen</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>643e78a91db44e84b0c6ebfd2ae2cd8e</id>
+    <filename>customCssPanagiotis</filename>
+    <fullpath>CSS Files\customCssPanagiotis</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>2033d74abdae46de86012f75472e40f5</id>
+    <filename>customCssKostas</filename>
+    <fullpath>CSS Files\customCssKostas</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>fd4af2939a194a7087ac70b950270987</id>
+    <filename>JSvasilis</filename>
+    <fullpath>Code Repository\JSvasilis</fullpath>
+    <isopen>True</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>e009e2e074a44aa38459f86055c9da49</id>
+    <filename>JShelen</filename>
+    <fullpath>Code Repository\JShelen</fullpath>
+    <isopen>True</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>569796660b514185901f9a6b248448aa</id>
+    <filename>JSKostas</filename>
+    <fullpath>Code Repository\JSKostas</fullpath>
+    <isopen>True</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>3d1f16957a5846dcb26e372b139c4890</id>
+    <filename>JSpanagiotis</filename>
+    <fullpath>Code Repository\JSpanagiotis</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>5395c9df67874e5ab5c7b31d3f7aa15c</id>
+    <filename>cssGeneral</filename>
+    <fullpath>CSS Files\cssGeneral</fullpath>
+    <isopen>False</isopen>
+    <imageid>4</imageid>
+    <location>CSS Files\</location>
+    <parentid>2</parentid>
+    <type>ft_CSS</type>
+  </file>
+  <file del="True" mov="False" ren="True">
+    <id>20520f1cf8104af1a88b42f542d2d70f</id>
+    <filename>JSgeneral</filename>
+    <fullpath>Code Repository\JSgeneral</fullpath>
+    <isopen>False</isopen>
+    <imageid>6</imageid>
+    <location>Code Repository\</location>
+    <parentid>1</parentid>
+    <type>ft_CodeLib</type>
+  </file>
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\smartXplorerIcon_map.png" name="smartXplorerIcon_map.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\AC-softice-cream.ttf" name="AC-softice-cream.ttf" type="rt_File" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\bg.png" name="bg.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\syntagma.jpg" name="syntagma.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\pgDetails.html" name="pgDetails.html" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\zeus.jpg" name="zeus.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\icon1.png" name="icon1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\VM-Hackathon\Downloads\ragnar.jpg" name="ragnar.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\menuIcon.png" name="menuIcon.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\pgLogin.html" name="pgLogin.html" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\calendar.png" name="calendar.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\x.png" name="x.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\cypriaHotel.jpg" name="cypriaHotel.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\everest.png" name="everest_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\pgMap.html" name="pgMap.html" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\VM-Hackathon\Downloads\aerhdes.jpg" name="aerhdes.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\loginPageBG_1.png" name="loginPageBG_1.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\loginPageBG.png" name="loginPageBG.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\tickets.png" name="tickets.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\everest.png" name="everest.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\Hotel-bed-icon.png" name="Hotel-bed-icon.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\visited.png" name="visited.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\smartXplorerIcon.png" name="smartXplorerIcon.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\VM-Hackathon\pgProfile.html" name="pgProfile.html" type="rt_File" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\kapnikarea.jpg" name="kapnikarea.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\search.png" name="search.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\museum2.jpg" name="museum2.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\metropolis.jpg" name="metropolis.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\directions.png" name="directions.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\everest_3.png" name="everest_3.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\visited_map.png" name="visited_map.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\badges.png" name="badges.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\ΒΑΣΙΛΉΣ\Desktop\icon2.png" name="icon2.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\wishListIcon.png" name="wishListIcon.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\arrowRight.png" name="arrowRight.png" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\VM-Hackathon\Downloads\musicMuseum.jpg" name="musicMuseum.jpg" type="rt_Image" />
+  <resource id="0" originalname="C:\Users\vkyritsis\Desktop\MyProjects\Resources\share.png" name="share.png" type="rt_Image" />
+  <userparams useaccounting="False" method="(None)" bindings="" tokenfield="" expiration="4320" screenmessage="Please provide values to the following fields in order to validate your profile" validationmessage="The data that you provided is invalid. Please try again." validationsuccessmessage="Settings saved.">
+    <userparam id="cgo.udv.token" caption="" name="ValidationToken" datatype="string" default="" description="" enumvalues="" order="1" ispassword="False" />
+  </userparams>
+  <buildsettings winphonelang="en" winstorelang="en" btntext="Accept" serverurl="" usedeployservice="false" androidversioncode="1" androidbundleid="" blackberryversioncode="1" blackberrybundleid="" blackberryappid="" blackberryppgurl="" blackberryppgurlserver="" blackberryppgurlserverpassword="" googleprojectnumber="" iosbundleid="com.globoplc.goautobuild" winphonebundleid="" winstorebundleid="" embed="True" login="False" backimage="False" startsettings="False" disclaimer="False" useencrypt="True" useoffice="False" usebarcode="False" displayprogressbar="none" includegoogleanalytics="False">
+    <theme>
+      <android>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </android>
+      <ios>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </ios>
+      <windows>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </windows>
+      <blackberry>
+        <background color="#FFFFFF" />
+        <menubackground color="#000000" />
+        <controlbackground color="#FFFFFF" />
+        <controlbuttonbackground color="#FFFFFF" />
+        <controlbuttonsecondaryforeColor color="#000000" />
+        <navigationbarforecolor color="#000000" />
+        <toolbarbackground color="#FFFFFF" />
+        <searchbarforecolor color="#000000" />
+        <bagdesforecolor color="#000000" />
+        <forecolor color="#000000" />
+        <menuforecolor color="#000000" />
+        <controlforecolor color="#000000" />
+        <controlbuttonforecolor color="#000000" />
+        <navigationbarbackground color="#FFFFFF" />
+        <toolbarforecolor color="#000000" />
+        <searchbarbackground color="#000000" />
+        <bagdesbackground color="#000000" />
+        <disclaimerforecolor color="#000000" />
+        <navbartransclusent value="False" />
+        <toolbartransclusent value="False" />
+        <statusbarlightcolor value="False" />
+      </blackberry>
+    </theme>
+    <certificates>
+      <certificate type="Android_KeyStore" cert="" store="" pass="" alias="" aliaspass="" platform="Android" />
+      <certificate type="iOS_Private" cert="C:\Users\ΒΑΣΙΛΉΣ\Desktop\cert\private_key_iOS_Private_iOS_Private_iOS_Private.p12" store="" pass="letmein" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Dev" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DevProvisioning" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DevNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Distrib" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DistribProvisioning" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_DistribNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_Ent" cert="C:\Users\ΒΑΣΙΛΉΣ\Desktop\cert\iOS_Enterprise_cert_iOS_Ent_iOS_Ent_iOS_Ent.cer" store="" pass="letmein" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_EntProvisioning" cert="C:\Users\ΒΑΣΙΛΉΣ\Desktop\cert\GOAutoBuild_Enterprise_Distribution_iOS_EntProvisioning_iOS_EntProvisioning_iOS_EntProvisioning.mobileprovision" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="iOS_EntNotification" cert="" store="" pass="" alias="" aliaspass="" platform="iOS" />
+      <certificate type="Win_StoreCertificate" cert="" store="" pass="" alias="" aliaspass="" platform="WindowsStore" />
+      <certificate type="BB10_TokenId" cert="" store="" pass="" alias="" aliaspass="" platform="BlackBerry" />
+      <certificate type="BB10_DeveloperCertificate" cert="" store="" pass="" alias="" aliaspass="" platform="BlackBerry" />
+    </certificates>
+    <resources>
+      <resource id="1" value="" />
+      <resource id="2" value="" />
+      <resource id="3" value="" />
+      <resource id="4" value="" />
+      <resource id="5" value="" />
+      <resource id="6" value="" />
+      <resource id="7" value="" />
+      <resource id="8" value="" />
+      <resource id="9" value="" />
+      <resource id="10" value="" />
+      <resource id="11" value="" />
+      <resource id="12" value="" />
+      <resource id="13" value="" />
+      <resource id="26" value="" />
+      <resource id="27" value="" />
+      <resource id="28" value="" />
+      <resource id="29" value="" />
+      <resource id="30" value="" />
+      <resource id="31" value="" />
+      <resource id="32" value="" />
+      <resource id="33" value="" />
+      <resource id="34" value="" />
+      <resource id="35" value="" />
+      <resource id="36" value="" />
+      <resource id="37" value="" />
+      <resource id="38" value="" />
+      <resource id="39" value="" />
+      <resource id="40" value="" />
+      <resource id="41" value="" />
+      <resource id="42" value="" />
+      <resource id="43" value="" />
+      <resource id="44" value="" />
+      <resource id="45" value="" />
+      <resource id="46" value="" />
+      <resource id="47" value="" />
+      <resource id="48" value="" />
+      <resource id="49" value="" />
+      <resource id="50" value="" />
+      <resource id="51" value="" />
+      <resource id="52" value="" />
+      <resource id="53" value="" />
+      <resource id="54" value="" />
+      <resource id="55" value="GOEnterprise_LOGO.png" />
+      <resource id="56" value="29.png" />
+      <resource id="57" value="40.png" />
+      <resource id="58" value="50.png" />
+      <resource id="59" value="57.png" />
+      <resource id="60" value="29@2x.png" />
+      <resource id="61" value="72.png" />
+      <resource id="62" value="76.png" />
+      <resource id="63" value="40@2x.png" />
+      <resource id="64" value="50@2x.png" />
+      <resource id="65" value="57@2x.png" />
+      <resource id="66" value="60@2x.png" />
+      <resource id="67" value="72@2x.png" />
+      <resource id="68" value="76@2x.png" />
+      <resource id="70" value="320_480_splash.png" />
+      <resource id="71" value="320_480_splash@2x.png" />
+      <resource id="72" value="640_1136_splashR4.png" />
+      <resource id="73" value="Splash_Enterprise_768_1024px.png" />
+      <resource id="74" value="768_1024_splash@2x.png" />
+      <resource id="75" value="1024_768_splash.png" />
+      <resource id="76" value="1024_768_splash@2x.png" />
+      <resource id="77" value="1136_640_splashR4.png" />
+      <resource id="78" value="Splash_Enterprise_320_480px.png" />
+      <resource id="79" value="Splash_Enterprise_480x800px.png" />
+      <resource id="80" value="Splash_Enterprise_640_960px.png" />
+      <resource id="81" value="Splash_Enterprise_640_1136px.png" />
+      <resource id="82" value="Splash_Enterprise_768_1024px.png" />
+      <resource id="83" value="Splash_Enterprise_768x1004px.png" />
+      <resource id="84" value="Splash_Enterprise_1536_2008px.png" />
+      <resource id="85" value="Splash_Enterprise_1536_2048px.png" />
+      <resource id="91" value="BG_Enterprise_480x800px.png" />
+      <resource id="92" value="BG_Enterprise_640_1096px.png" />
+      <resource id="93" value="BG_Enterprise_768x1004px.png" />
+      <resource id="94" value="BG_Enterprise_1536_2008px.png" />
+      <resource id="95" value="" />
+      <resource id="96" value="" />
+      <resource id="97" value="" />
+      <resource id="98" value="" />
+      <resource id="99" value="" />
+      <resource id="100" value="" />
+      <resource id="102" value="" />
+      <resource id="103" value="" />
+      <resource id="104" value="" />
+      <resource id="105" value="" />
+      <resource id="106" value="" />
+      <resource id="107" value="" />
+      <resource id="108" value="" />
+      <resource id="109" value="" />
+      <resource id="113" value="" />
+      <resource id="114" value="" />
+      <resource id="115" value="" />
+      <resource id="116" value="" />
+      <resource id="117" value="" />
+      <resource id="118" value="" />
+      <resource id="119" value="" />
+      <resource id="120" value="" />
+      <resource id="121" value="" />
+      <resource id="122" value="" />
+      <resource id="123" value="" />
+      <resource id="124" value="" />
+      <resource id="125" value="" />
+      <resource id="126" value="" />
+      <resource id="127" value="" />
+      <resource id="128" value="" />
+      <resource id="129" value="" />
+      <resource id="130" value="" />
+      <resource id="131" value="" />
+      <resource id="132" value="" />
+      <resource id="133" value="" />
+      <resource id="134" value="" />
+      <resource id="135" value="" />
+      <resource id="136" value="" />
+      <resource id="137" value="" />
+      <resource id="138" value="" />
+      <resource id="139" value="" />
+      <resource id="140" value="" />
+      <resource id="141" value="" />
+      <resource id="142" value="" />
+      <resource id="143" value="" />
+      <resource id="144" value="" />
+      <resource id="145" value="" />
+      <resource id="146" value="" />
+      <resource id="147" value="" />
+      <resource id="148" value="" />
+      <resource id="149" value="" />
+      <resource id="150" value="" />
+      <resource id="151" value="" />
+      <resource id="162" value="" />
+      <resource id="163" value="" />
+      <resource id="164" value="" />
+      <resource id="165" value="" />
+      <resource id="166" value="" />
+      <resource id="167" value="" />
+      <resource id="168" value="" />
+      <resource id="169" value="" />
+      <resource id="170" value="" />
+      <resource id="171" value="" />
+      <resource id="172" value="" />
+      <resource id="173" value="" />
+      <resource id="174" value="" />
+      <resource id="175" value="" />
+      <resource id="176" value="" />
+      <resource id="177" value="" />
+      <resource id="178" value="" />
+      <resource id="179" value="" />
+      <resource id="180" value="" />
+      <resource id="181" value="" />
+      <resource id="182" value="" />
+      <resource id="183" value="" />
+      <resource id="184" value="" />
+      <resource id="197" value="" />
+      <resource id="198" value="" />
+      <resource id="199" value="" />
+      <resource id="200" value="" />
+      <resource id="201" value="" />
+      <resource id="202" value="" />
+      <resource id="203" value="" />
+      <resource id="204" value="" />
+      <resource id="205" value="" />
+      <resource id="206" value="" />
+      <resource id="207" value="" />
+      <resource id="208" value="" />
+      <resource id="209" value="" />
+      <resource id="210" value="" />
+      <resource id="211" value="" />
+      <resource id="212" value="" />
+      <resource id="213" value="" />
+      <resource id="214" value="" />
+      <resource id="215" value="" />
+      <resource id="216" value="" />
+      <resource id="217" value="" />
+      <resource id="218" value="" />
+      <resource id="219" value="" />
+      <resource id="220" value="" />
+      <resource id="221" value="" />
+      <resource id="222" value="" />
+      <resource id="223" value="" />
+      <resource id="224" value="" />
+      <resource id="225" value="" />
+      <resource id="226" value="" />
+      <resource id="227" value="" />
+    </resources>
+    <containerplugins>
+      <containerplugin name="iBeacon Detector" description="A plugin that reads beacon readings" platform="iOS" version="1.0.0" plugindirectory="C:\Users\ΒΑΣΙΛΉΣ\Desktop\GLBPlugins.git\GLBBeaconPlugin\GLBPluginBeacon" />
+    </containerplugins>
+  </buildsettings>
+</project>

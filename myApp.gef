@@ -1,0 +1,86 @@
+<go:include type="css" file="f7_ios"></go:include>
+<go:include type="css" file="f7_colors_ios"></go:include>
+<go:include type="css" file="customCssVasilis"></go:include>
+<go:include type="css" file="customCssHelen"></go:include>
+<go:include type="css" file="customCssKostas"></go:include>
+<go:include type="css" file="customCssPanagiotis"></go:include>
+<go:include type="css" file="cssGeneral"></go:include>
+<go:include type="css" file="ios"></go:include>
+<go:include type="script" file="framework7"></go:include>
+<go:include type="script" file="JShelen"></go:include>
+<go:include type="script" file="JSKostas"></go:include>
+<go:include type="script" file="JSvasilis"></go:include>
+<go:include type="script" file="JSpanagiotis"></go:include>
+
+<go:include type="script" file="myApp"></go:include>
+
+
+<go:page style=""  shownavigation="false" id="myApp" title="My App">
+    <content>
+        <!-- Views -->
+        <div class="views">
+            <!-- Your main view -->
+            <div class="view view-main">
+                <!-- Navbar-->
+                <div class="pages navbar-through toolbar-through">
+                    <div data-page="index" class="page" id="firstPage">
+                        <div class="page-content mainPageBgClass">
+                            <h1>SmartXplorer</h1>
+                            <a href="pgLogin.html" id="loginBtn">LOG IN</a>
+                            <a href="javascript:void(0)" onclick="" id="signupBtn">SIGN UP</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Toolbar-->
+            </div>
+            <!-- Another view -->
+        </div>
+        <div class="popup">
+            <div class="view popup-view"> ... </div>
+        </div>
+        <!-- menu popover -->
+        <div class="popover popover-menu myAppMenu">
+            <div class="popover-inner myAppMenuInner">
+                <div class="content-block no-margin no-padding">
+                    <div class="row no-gutter detailsMenuSection">
+                        <div class="col-33 detailsMenuSectionItems border" onclick="openProfile()">
+                            <div class="profile "></div>
+                            <div class="  ">PROFILE</div>
+                        </div>
+                        <div class=" col-33 detailsMenuSectionItems border">
+                            <div class="wishlist "></div>
+                            <div class="  ">WISHLIST</div>
+                        </div>
+                        <div class="col-33 detailsMenuSectionItems border">
+                            <div class=" events "></div>
+                            <div class="  ">EVENTS CALENDAR</div>
+                        </div>
+                    </div>
+                    <div class="row no-gutter detailsMenuSection">
+                        <div class="col-33 detailsMenuSectionItems border">
+                            <div class="badges "></div>
+                            <div class="  ">MY BADGES</div>
+                        </div>
+                        <div class=" col-33 detailsMenuSectionItems border">
+                            <div class="visited "></div>
+                            <div class="  ">VISITED PLACES</div>
+                        </div>
+                        <div class="col-33 detailsMenuSectionItems border" onclick="openNearMe()">
+                            <div class=" search "></div>
+                            <div class="  ">NEAR ME</div>
+                        </div>
+                    </div>
+                    <div class="close" onclick="closePopover()">CLOSE X</div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="http://maps.google.com/maps/api/js"></script>
+        <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"> </script>
+        <script src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.9/src/markerwithlabel.js"> </script>
+        
+    </content>
+
+
+
+</go:page>

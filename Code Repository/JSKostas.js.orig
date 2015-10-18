@@ -1,0 +1,98 @@
+ var beaconsWhiteList = [{
+    "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+    "major":"6",
+    "minor":"2",
+    "identifier": "beacon_identifier_13" 
+    },
+    {
+<<<<<<< HEAD
+    "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0", 
+    "major":"5",
+=======
+    "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",  
+    "major":"5", 
+>>>>>>> develop
+    "minor":"1",
+    "identifier": "beacon_identifier_14"
+},
+    {
+        "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+        "major":"0", 
+        "minor":"1",
+        "identifier": "beacon_identifier_R2" 
+}];
+       
+function constructPluginInputArgs(action) {
+    console.log(arguments.callee.name);
+    if (action != "registerBeacon" && action != "unregisterBeacon") {
+        throw "invalid action";
+    }
+    var pluginInputArgs = {
+        "plugin": "GLBPluginBeacon",
+        "params": {
+            "regions": beaconsWhiteList,
+            "interval": "2"
+        },
+        "action": action
+    };
+    return pluginInputArgs;
+}
+                
+function scanForBeaconsStart() {
+    //console.log(arguments.callee.name);
+    //go.alert("Started");
+    var pluginInputArgs = constructPluginInputArgs("registerBeacon");
+    go.executePlugin(pluginInputArgs, scanForBeaconsStartCallback);
+}
+
+function scanForBeaconsStop() {
+    //console.log(arguments.callee.name);
+    var pluginInputArgs = constructPluginInputArgs("unregisterBeacon");
+    go.executePlugin(pluginInputArgs, scanForBeaconsStopCallback);
+}
+var visitedPlaces = [];
+function scanForBeaconsStartCallback(rs) {
+    //console.log(rs);
+    executeNotification(rs);
+}
+
+function executeNotification(rs){
+    var foundedBeacons = rs.iBeacons;
+    if (foundedBeacons.length > 0) {
+        for(var i=0; i<foundedBeacons.length;i++) {
+            var acc = parseFloat(foundedBeacons[i].accuracy.replace(",","."));
+            if ( visitedPlaces.indexOf(foundedBeacons[i].major) == -1 && acc < 0.8) {
+                console.log(foundedBeacons[i].major);
+                visitedPlaces.push(foundedBeacons[i].major);
+                var t = getTitle(foundedBeacons[i].major);
+                console.log(t);
+                localNotification(t);
+                animateMe(foundedBeacons[i].major);
+            }
+        }
+    }
+}
+
+function getTitle(maj) {
+    var res;
+    for (var j=0; j<myApp.template7Data.dataSitesObjectArray.length;j++) {
+        if( myApp.template7Data.dataSitesObjectArray[j].beacon.major == maj ) {
+            res = myApp.template7Data.dataSitesObjectArray[j].title;
+            break;    
+        }
+    }
+    return res;
+} 
+
+function scanForBeaconsStopCallback(rs) {
+    //console.log(arguments.callee.name);
+    console.log(rs);
+}
+      
+function localNotification(titleDestination){
+    var t = new Date();
+    t.setSeconds(t.getSeconds() + 3);
+    
+    var result = go.localNotification({'message': titleDestination + ' is less than 0.8m away from your location.', 'dateShow':go.utils.dateToGoDate(t)});
+    console.log(JSON.stringify(result));
+}

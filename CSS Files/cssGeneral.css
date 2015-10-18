@@ -1,0 +1,102 @@
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>body,html {
+    font-family:smartXplorer;
+    height: 100%;
+    margin: 0; 
+    padding: 0;  
+color: #404041;
+}
+
+#map {
+    height: 100%;              
+}
+
+@font-face {
+    font-family: smartXplorer;
+    src: url(AC-softice-cream.ttf);
+}
+
+/*General resets*/
+
+.content-block-inner:after{
+    background-color:#F7F9DD;
+}
+.content-block.no-margin{
+    margin:0;
+}
+.content-block.no-padding{
+    padding:0;
+}
+
+.myAppMenu .detailsMenuSection{
+    height:100px;
+}
+
+/*General resets*/
+
+/*reset overlay*/
+.modal-overlay-visible{
+    background:rgba(0,0,0,0.2);
+    top:60px;
+}
+
+/*popover menu*/
+.popover.myAppMenu{
+    background:#F7F9DD !important;
+    border-radius:0;
+    width: 100%;
+    height: 257px;
+    left:0 !important;
+    
+}
+
+.popover{
+    top:60px !important;
+}
+
+.popover-inner.myAppMenuInner{
+    height:100%;
+}
+.myAppMenu .popover-angle{
+    display:none;
+}
+
+.close{
+    text-align: center;
+    line-height: 56px;
+    height: 56px;
+    border-bottom: 1px solid #404041;
+}
+
+/*navbar*/
+.navbar:after{
+    height:2px;
+    background-color:black!important;
+}
+
+.navbar {
+   background:#F7F9DD !important;
+}
+.menuIcon{
+    height:24px;
+    width:24px;
+    background-image:url('menuIcon.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.navBarTitle{
+    top:3px;
+    font-size:15px !important;
+}
+
+/*navbar*/
+/*subnavbar*/
+.subnavbarColor{
+  background:#F7F9DD !important;
+}
+.detailsTitle{
+    text-align:center;
+     text-transform: uppercase;
+
+}
+ /*subnavbar*/

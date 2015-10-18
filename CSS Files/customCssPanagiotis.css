@@ -1,0 +1,187 @@
+<go:file devused="True,True,True,True" xmlns:go='http://www.globoplc.com'></go:file>
+
+#firstPage h1 {
+font-family: smartXplorer;
+text-align: center;
+font-size: 40px;
+top: 56%;
+position: relative;
+color: #404041;
+}
+
+#firstPage a {
+position: absolute;
+bottom: 10%;
+border: 2px solid #404041;
+width: 38%;
+font-size: 13px;
+padding: 2px;
+text-align: center;
+color: #404041;
+font-family: smartXplorer;
+}
+
+#firstPage a#loginBtn {
+    left: 6%;
+}
+
+#firstPage a#signupBtn {
+    right: 6%;
+}
+
+#loginPage,
+#profilePage {
+    background-color: #F7F9DD !important;
+padding-left: 6%;
+padding-right: 6%;
+font-family: smartXplorer;
+}
+
+#profilePage .page-content{
+overflow-y: hidden;
+}
+
+#loginPage .row,
+#profilePage .row {
+    position:relative;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+#loginPage .row:first-child,
+ #loginPage .row:last-child {
+     margin-top:55px;
+}
+ #loginPage .row:last-child label {
+letter-spacing: 3px;
+font-size: 16px;
+margin-bottom: 20px;
+ }
+
+#loginPage .row:nth-child(2) {
+    -webkit-flex-wrap: nowrap;
+    line-height:24px;
+    font-size:11px;
+}
+
+#loginPage .row:nth-child(3) .btn {
+    margin-top:10px;
+}
+
+#loginPage .row:nth-child(3) {
+    margin-top:35px;
+}
+
+#loginPage .row:nth-child(2) .btn,
+#loginPage .row:nth-child(1) .btn {
+    font-size:11px;
+    width:131px;
+}
+
+#loginPage label {
+    display:block;
+    text-align:center;
+font-size: 12px;
+width: 100%;
+}
+
+#loginPage h3 {
+    display:block;
+    text-align:center;
+width: 100%;
+}
+
+#loginPage input,
+#profilePage input  {
+display: block;
+width: 100%;
+background-color: transparent;
+border: 0px;
+border-bottom: 2px solid #404041;
+padding-left:10px;
+   font-family: smartXplorer; 
+       color: #404041;
+}
+
+::-webkit-input-placeholder {
+    color: #404041;
+   font-size:12px;
+font-family: smartXplorer;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #404041;
+    font-dsize:12px; 
+   font-family: smartXplorer; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #404041;  
+      font-size:12px;
+      font-family: smartXplorer;
+}
+
+:-ms-input-placeholder {  
+   color: #404041;     
+   font-size:12px;
+   font-family: smartXplorer;
+}
+input:-moz-placeholder {    
+    color: #404041;     
+   font-size:12px;
+   font-family: smartXplorer;
+}
+
+.btn {
+display: inline-block;
+border: 2px solid #404041;
+color: #404041!important;
+width: 150px;
+font-size: 14px;
+height: 24px;
+line-height: 24px;
+margin: 0 auto;
+text-align: center;
+}
+
+#profilePage img {
+height:120px;
+border:2px solid #404041;
+margin: 0 auto;
+display: inline-block;
+}
+
+#profilePage .row:nth-child(1) {
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+#profilePage .lineRow {
+    border-bottom:1px solid #404041;
+    height:7px;
+}
+
+#profilePage .col-33 {
+text-align:center;
+}
+
+#profilePage span {
+    text-align:center;
+    font-size:12px;
+    display:block;
+    width:100%;
+    margin-top:5px;
+}
+
+#profilePage img.myicon {
+    height:40px;
+margin: 0 auto;
+display: inline-block;
+border:none;
+}
+
+#profilePage .row:nth-child(4),
+#profilePage .row:nth-child(5) {
+    margin-top:40px;
+    margin-bottom:2px;
+}

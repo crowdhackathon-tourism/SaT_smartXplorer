@@ -1,0 +1,42 @@
+{
+    "id": 0,
+    "nationalities": [
+        {
+            "nationality": "EN",
+            "total_visitors": 50,
+            "total_visits": 100,
+            "badgesEarned": 150,
+            "badgesRedeemed": 75,
+            "sites": [
+                {
+                    id: 0,
+                    title: "The Museum of Popular Instruments",
+                    description: "About half of the instruments forming the Anoyanakis Collection are on public display. They have been selected on the criterion not only of their aesthetic and decorative value but, in particular, of their ethnological and musicological interest. The remaining instruments are available for research and for travelling exhibitions to be held in schools etc and for occasional exhibitions of a special nature. The permanent exhibition is spread over three floors and divided into four sections, corresponding to the groups of determined by the material that is made to vibrate in order to produce sound. The objects of the Museum and Research Centre, as stated in the foundation charter, are as follows: 1) The collection, maintenance and display of popular musical instruments and generally of any material contributing to the research study and furtherance of Greek musical tradition, 2) The promotion of research and study in connection with ethnomusicological subjects, in addition to the identification and dissemination of traditional music, 3) The preservation, study, projection and dissemination by all available means of Greek folk and Byzantine musical tradition, both in Greece and abroad, and 4) The creation of a special ethnomusicological and audio-visual archive. The MELMOKE organizes traditional music lessons",
+                    smallDescription: "The Museum of Popular Instruments - Research Centre for Ethnomusicology comprises the collection of about 1200 Greek popular musical instruments dating from the 18th century to the present day.",
+                    amenities: "Not Available Information",
+                    category: "museum",
+                    "badgesEarned": 47,
+                    "badgesRedeemed": 12,
+                    beacon: 'beacon_id',
+                    hasTicket: false,
+                    "age_range": ["18-25": 30, "26-35": 30, "31-40": 40]
+                },
+                ...
+            ]
+        },
+        {
+            "nationality": "GR",
+            "total_visitors": 50,
+            "total_visits": 100,
+            "budgesEarned": 150,
+            "badgesRedeemed": 75,
+            "sites": [
+                {
+                    ...
+                },
+                ...
+            ]
+        },
+
+    ]
+}
